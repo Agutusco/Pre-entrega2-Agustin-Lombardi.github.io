@@ -136,7 +136,7 @@ footer nav{
     color: purple;
     transform: scale(1.2,.1.2);
     border-bottom: 4px solid purple;
-}
+} 
 .Centrar{
     text-align: center;
 }
@@ -352,7 +352,6 @@ flex-direction: column;
         "nav"
         "contenido"
         "seccion"
-        "pie"
         "pie";
     }
     .header-index{
@@ -372,7 +371,7 @@ flex-direction: column;
         padding-bottom: 2em;
     }
     .footer-index{
-        height: 160%;
+        height: 160%em;
         width: 100%;
         }
         nav ul{
@@ -510,10 +509,11 @@ flex-direction: column;
     .seccion-carreras{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin-top: 86em;
         justify-content: center;
         align-items: center;
+        padding-top: 20em;
     }
     .footer-carreras{
         height: 160%;
